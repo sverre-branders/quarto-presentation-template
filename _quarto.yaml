@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "My Presentation"
+
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    transition: slide
+    center: true
+    incremental: true
+    toc: true
+    html-math-method: katex
+    code-overflow: wrap

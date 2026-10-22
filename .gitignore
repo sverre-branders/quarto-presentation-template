@@ -1,3 +1,8 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+# Quarto output and intermediate files
+_site/
+.quarto/
+*.html
+*_files/
