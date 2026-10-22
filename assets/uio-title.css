@@ -1,0 +1,113 @@
+.reveal .slides section.title-slide {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 1.2em 1.5em;
+  text-align: left;
+}
+
+.reveal .title-slide h2 {
+  width: 100%;
+  margin: 0;
+  font-size: 1.65em;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.reveal .title-slide .subtitle {
+  margin-top: 0.35em;
+  color: #444;
+  font-size: 0.75em;
+}
+
+/* Push everything after the subtitle to the bottom. */
+.reveal .title-slide .title-footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr auto;
+  column-gap: 1.5em;
+  align-items: end;
+
+  width: 100%;
+  margin-top: auto;
+  padding-top: 1em;
+}
+
+.reveal .title-slide .presenter-details {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+}
+
+.reveal .title-slide .presenter {
+  margin: 0;
+  color: #222;
+  font-size: 0.65em;
+  line-height: 1.35;
+}
+
+.reveal .title-slide .presenter-meta {
+  margin-top: 0.15em;
+  color: #666;
+  font-size: 0.3em;
+  line-height: 1.3;
+}
+
+/* Keep the date at the bottom-left. */
+.reveal .title-slide .date {
+  grid-column: 1;
+  grid-row: 2;
+
+  margin-top: 1em;
+  color: #444;
+  font-size: 0.5em;
+}
+
+/* Logo on the right */
+.reveal .title-slide .title-footer {
+  display: grid;
+  grid-template-columns: 1fr 45%;
+  grid-template-rows: 1fr auto;
+  column-gap: 1.5em;
+
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.reveal .title-slide .presenter-details {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+}
+
+.reveal .title-slide .date {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end;
+  margin: 0;
+}
+
+.reveal .title-slide .logo-container {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  min-height: 0;
+  margin: 0;
+}
+
+.reveal .title-slide .university-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}

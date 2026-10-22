@@ -1,0 +1,10 @@
+---
+format:
+  revealjs:
+    title-slide: false
+    toc: false
+---
+
+{{< include title-slide.qmd >}}
+
+{{< include content.qmd >}}

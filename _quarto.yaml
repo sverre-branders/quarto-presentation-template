@@ -5,13 +5,26 @@ project:
 website:
   title: "My Presentation"
 
+presentation-title: "Title"
+presentation-subtitle: "Subtitle"
+presenter: "Sverre Branders"
+presenter-title: "Postdoctoral Research Fellow"
+presenter-university: "University of Oslo"
+presentation-date: today
+university-logo: ../assets/uio_full_logo_eng_pos.svg
+
 format:
   revealjs:
     theme: default
+    css: ../assets/uio-title.css
+
+    # Disable Quarto-generated opening slides
+    title-slide: false
+    toc: false
+
+    # Presentation defaults
     slide-number: true
-    transition: slide
-    center: true
-    incremental: true
-    toc: true
+    transition: none
+    center: false
     html-math-method: katex
     code-overflow: wrap

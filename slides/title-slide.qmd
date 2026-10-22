@@ -1,0 +1,35 @@
+## {{< meta presentation-title >}} {.title-slide}
+
+::: {.subtitle}
+{{< meta presentation-subtitle >}}
+:::
+
+::: {.title-footer}
+
+::: {.presenter-details}
+::: {.presenter}
+{{< meta presenter >}}
+:::
+
+::: {.presenter-meta}
+{{< meta presenter-title >}}
+:::
+
+::: {.presenter-meta}
+{{< meta presenter-university >}}
+:::
+:::
+
+::: {.date}
+{{< meta presentation-date >}}
+:::
+
+::: {.logo-container}
+<img
+  class="university-logo"
+  src="{{< meta university-logo >}}"
+  alt="University of Oslo logo"
+/>
+:::
+
+:::
