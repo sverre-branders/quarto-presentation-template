@@ -5,7 +5,7 @@ presentation managed with [Pixi](https://pixi.sh/).
 
 ## Install
 > [!NOTE]
-> **Dependencies:** `git` `conda`
+> **Dependencies:** `pixi`
 
 ```bash
 pixi install
