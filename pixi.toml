@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Sverre Branders"]
+channels = ["conda-forge"]
+name = "quarto-presentation"
+platforms = ["win-64", "linux-64"]
+version = "0.1.0"
+
+[dependencies]
+quarto = ">=1.9.38,<2"
+
+[tasks]
+render = "quarto render slides/index.qmd"
+preview = "quarto preview slides/index.qmd"
+clean = "quarto clean"
